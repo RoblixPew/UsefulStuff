@@ -17,7 +17,7 @@ class placeholder : public wxApp
 public:
     bool OnInit() override
     {
-        click* frame = new click(nullptr);
+        placeholder* frame = new placeholder(nullptr);
         frame->Show(true);
         return true;
     }
