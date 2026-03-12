@@ -12,7 +12,7 @@ TARGET = # Inserire nome a piacimento
 all: $(TARGET)
 
 $(TARGET): $(OBJ)
-	@rm -f $(TARGET)       # rimuove l’output se esiste
+	@rm -f $(TARGET)
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
 
